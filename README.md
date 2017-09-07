@@ -4,6 +4,7 @@
 /**
 飞机票（回调地点和编码）
 */
+
 PlaneAndTrainPlaceController *vc = [[PlaneAndTrainPlaceController alloc]init];
 
 [vc setPlaceType:0];
