@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2318E24C1F5FE9FE00FE291E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E24B1F5FE9FE00FE291E /* main.m */; };
+		2318E24F1F5FE9FE00FE291E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E24E1F5FE9FE00FE291E /* AppDelegate.m */; };
+		2318E2521F5FE9FE00FE291E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E2511F5FE9FE00FE291E /* ViewController.m */; };
+		2318E2551F5FE9FE00FE291E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2318E2531F5FE9FE00FE291E /* Main.storyboard */; };
+		2318E2571F5FE9FE00FE291E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2318E2561F5FE9FE00FE291E /* Assets.xcassets */; };
+		2318E25A1F5FE9FE00FE291E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2318E2581F5FE9FE00FE291E /* LaunchScreen.storyboard */; };
+		2318E2651F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E2641F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.m */; };
+		2318E2701F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E26F1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.m */; };
+		2318E2821F5FEBBF00FE291E /* china_cities.db in Resources */ = {isa = PBXBuildFile; fileRef = 2318E27E1F5FEBBF00FE291E /* china_cities.db */; };
+		2318E2831F5FEBBF00FE291E /* cities.db in Resources */ = {isa = PBXBuildFile; fileRef = 2318E27F1F5FEBBF00FE291E /* cities.db */; };
+		2318E2841F5FEBBF00FE291E /* PlaneAndTrainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E2811F5FEBBF00FE291E /* PlaneAndTrainModel.m */; };
+		2318E2871F5FEBDA00FE291E /* PlaneAndTrainPlaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2318E2861F5FEBDA00FE291E /* PlaneAndTrainPlaceController.m */; };
+		2318E2891F5FF62400FE291E /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2318E2881F5FF62400FE291E /* cancel.png */; };
+		A5FE5C72BA01F7DB5C56A883 /* libPods-SelectTrainFlightPlace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B272648BACE3CDA13CF4C1EF /* libPods-SelectTrainFlightPlace.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2318E2611F5FE9FF00FE291E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2318E23F1F5FE9FE00FE291E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2318E2461F5FE9FE00FE291E;
+			remoteInfo = SelectTrainFlightPlace;
+		};
+		2318E26C1F5FE9FF00FE291E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2318E23F1F5FE9FE00FE291E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2318E2461F5FE9FE00FE291E;
+			remoteInfo = SelectTrainFlightPlace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2318E2471F5FE9FE00FE291E /* SelectTrainFlightPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectTrainFlightPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318E24B1F5FE9FE00FE291E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2318E24D1F5FE9FE00FE291E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2318E24E1F5FE9FE00FE291E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2318E2501F5FE9FE00FE291E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2318E2511F5FE9FE00FE291E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2318E2541F5FE9FE00FE291E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2318E2561F5FE9FE00FE291E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2318E2591F5FE9FE00FE291E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2318E25B1F5FE9FE00FE291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2318E2601F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectTrainFlightPlaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318E2641F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTrainFlightPlaceTests.m; sourceTree = "<group>"; };
+		2318E2661F5FE9FF00FE291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2318E26B1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectTrainFlightPlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2318E26F1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTrainFlightPlaceUITests.m; sourceTree = "<group>"; };
+		2318E2711F5FE9FF00FE291E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2318E27E1F5FEBBF00FE291E /* china_cities.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = china_cities.db; sourceTree = "<group>"; };
+		2318E27F1F5FEBBF00FE291E /* cities.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = cities.db; sourceTree = "<group>"; };
+		2318E2801F5FEBBF00FE291E /* PlaneAndTrainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneAndTrainModel.h; sourceTree = "<group>"; };
+		2318E2811F5FEBBF00FE291E /* PlaneAndTrainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneAndTrainModel.m; sourceTree = "<group>"; };
+		2318E2851F5FEBDA00FE291E /* PlaneAndTrainPlaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaneAndTrainPlaceController.h; sourceTree = "<group>"; };
+		2318E2861F5FEBDA00FE291E /* PlaneAndTrainPlaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaneAndTrainPlaceController.m; sourceTree = "<group>"; };
+		2318E2881F5FF62400FE291E /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		47EA2291314699BE1E63912C /* Pods-SelectTrainFlightPlace.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectTrainFlightPlace.release.xcconfig"; path = "Pods/Target Support Files/Pods-SelectTrainFlightPlace/Pods-SelectTrainFlightPlace.release.xcconfig"; sourceTree = "<group>"; };
+		B272648BACE3CDA13CF4C1EF /* libPods-SelectTrainFlightPlace.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SelectTrainFlightPlace.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD66E66D4560DBC24028E52A /* Pods-SelectTrainFlightPlace.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectTrainFlightPlace.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SelectTrainFlightPlace/Pods-SelectTrainFlightPlace.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2318E2441F5FE9FE00FE291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5FE5C72BA01F7DB5C56A883 /* libPods-SelectTrainFlightPlace.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318E25D1F5FE9FF00FE291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318E2681F5FE9FF00FE291E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2318E23E1F5FE9FE00FE291E = {
+			isa = PBXGroup;
+			children = (
+				2318E2491F5FE9FE00FE291E /* SelectTrainFlightPlace */,
+				2318E2631F5FE9FF00FE291E /* SelectTrainFlightPlaceTests */,
+				2318E26E1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests */,
+				2318E2481F5FE9FE00FE291E /* Products */,
+				C6A54C5296EE414BF4093675 /* Pods */,
+				4726FAC2827D442128E2AB5E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2318E2481F5FE9FE00FE291E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2318E2471F5FE9FE00FE291E /* SelectTrainFlightPlace.app */,
+				2318E2601F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.xctest */,
+				2318E26B1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2318E2491F5FE9FE00FE291E /* SelectTrainFlightPlace */ = {
+			isa = PBXGroup;
+			children = (
+				2318E27D1F5FEBBF00FE291E /* PlaneAndTrainPlace */,
+				2318E24D1F5FE9FE00FE291E /* AppDelegate.h */,
+				2318E24E1F5FE9FE00FE291E /* AppDelegate.m */,
+				2318E2501F5FE9FE00FE291E /* ViewController.h */,
+				2318E2511F5FE9FE00FE291E /* ViewController.m */,
+				2318E2531F5FE9FE00FE291E /* Main.storyboard */,
+				2318E2561F5FE9FE00FE291E /* Assets.xcassets */,
+				2318E2581F5FE9FE00FE291E /* LaunchScreen.storyboard */,
+				2318E25B1F5FE9FE00FE291E /* Info.plist */,
+				2318E24A1F5FE9FE00FE291E /* Supporting Files */,
+			);
+			path = SelectTrainFlightPlace;
+			sourceTree = "<group>";
+		};
+		2318E24A1F5FE9FE00FE291E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2318E24B1F5FE9FE00FE291E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2318E2631F5FE9FF00FE291E /* SelectTrainFlightPlaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				2318E2641F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.m */,
+				2318E2661F5FE9FF00FE291E /* Info.plist */,
+			);
+			path = SelectTrainFlightPlaceTests;
+			sourceTree = "<group>";
+		};
+		2318E26E1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2318E26F1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.m */,
+				2318E2711F5FE9FF00FE291E /* Info.plist */,
+			);
+			path = SelectTrainFlightPlaceUITests;
+			sourceTree = "<group>";
+		};
+		2318E27D1F5FEBBF00FE291E /* PlaneAndTrainPlace */ = {
+			isa = PBXGroup;
+			children = (
+				2318E27E1F5FEBBF00FE291E /* china_cities.db */,
+				2318E27F1F5FEBBF00FE291E /* cities.db */,
+				2318E2881F5FF62400FE291E /* cancel.png */,
+				2318E2801F5FEBBF00FE291E /* PlaneAndTrainModel.h */,
+				2318E2811F5FEBBF00FE291E /* PlaneAndTrainModel.m */,
+				2318E2851F5FEBDA00FE291E /* PlaneAndTrainPlaceController.h */,
+				2318E2861F5FEBDA00FE291E /* PlaneAndTrainPlaceController.m */,
+			);
+			path = PlaneAndTrainPlace;
+			sourceTree = "<group>";
+		};
+		4726FAC2827D442128E2AB5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B272648BACE3CDA13CF4C1EF /* libPods-SelectTrainFlightPlace.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6A54C5296EE414BF4093675 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD66E66D4560DBC24028E52A /* Pods-SelectTrainFlightPlace.debug.xcconfig */,
+				47EA2291314699BE1E63912C /* Pods-SelectTrainFlightPlace.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2318E2461F5FE9FE00FE291E /* SelectTrainFlightPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318E2741F5FE9FF00FE291E /* Build configuration list for PBXNativeTarget "SelectTrainFlightPlace" */;
+			buildPhases = (
+				69538C1FADB981A72EF96607 /* [CP] Check Pods Manifest.lock */,
+				2318E2431F5FE9FE00FE291E /* Sources */,
+				2318E2441F5FE9FE00FE291E /* Frameworks */,
+				2318E2451F5FE9FE00FE291E /* Resources */,
+				876BFF72EEFA4058B81D8F3C /* [CP] Embed Pods Frameworks */,
+				730E31E4319047FA6C9807AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectTrainFlightPlace;
+			productName = SelectTrainFlightPlace;
+			productReference = 2318E2471F5FE9FE00FE291E /* SelectTrainFlightPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2318E25F1F5FE9FF00FE291E /* SelectTrainFlightPlaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318E2771F5FE9FF00FE291E /* Build configuration list for PBXNativeTarget "SelectTrainFlightPlaceTests" */;
+			buildPhases = (
+				2318E25C1F5FE9FF00FE291E /* Sources */,
+				2318E25D1F5FE9FF00FE291E /* Frameworks */,
+				2318E25E1F5FE9FF00FE291E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2318E2621F5FE9FF00FE291E /* PBXTargetDependency */,
+			);
+			name = SelectTrainFlightPlaceTests;
+			productName = SelectTrainFlightPlaceTests;
+			productReference = 2318E2601F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2318E26A1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2318E27A1F5FE9FF00FE291E /* Build configuration list for PBXNativeTarget "SelectTrainFlightPlaceUITests" */;
+			buildPhases = (
+				2318E2671F5FE9FF00FE291E /* Sources */,
+				2318E2681F5FE9FF00FE291E /* Frameworks */,
+				2318E2691F5FE9FF00FE291E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2318E26D1F5FE9FF00FE291E /* PBXTargetDependency */,
+			);
+			name = SelectTrainFlightPlaceUITests;
+			productName = SelectTrainFlightPlaceUITests;
+			productReference = 2318E26B1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2318E23F1F5FE9FE00FE291E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Raising;
+				TargetAttributes = {
+					2318E2461F5FE9FE00FE291E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 24Z646MJH9;
+						ProvisioningStyle = Automatic;
+					};
+					2318E25F1F5FE9FF00FE291E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 24Z646MJH9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2318E2461F5FE9FE00FE291E;
+					};
+					2318E26A1F5FE9FF00FE291E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 24Z646MJH9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2318E2461F5FE9FE00FE291E;
+					};
+				};
+			};
+			buildConfigurationList = 2318E2421F5FE9FE00FE291E /* Build configuration list for PBXProject "SelectTrainFlightPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2318E23E1F5FE9FE00FE291E;
+			productRefGroup = 2318E2481F5FE9FE00FE291E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2318E2461F5FE9FE00FE291E /* SelectTrainFlightPlace */,
+				2318E25F1F5FE9FF00FE291E /* SelectTrainFlightPlaceTests */,
+				2318E26A1F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2318E2451F5FE9FE00FE291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318E25A1F5FE9FE00FE291E /* LaunchScreen.storyboard in Resources */,
+				2318E2571F5FE9FE00FE291E /* Assets.xcassets in Resources */,
+				2318E2831F5FEBBF00FE291E /* cities.db in Resources */,
+				2318E2891F5FF62400FE291E /* cancel.png in Resources */,
+				2318E2821F5FEBBF00FE291E /* china_cities.db in Resources */,
+				2318E2551F5FE9FE00FE291E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318E25E1F5FE9FF00FE291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318E2691F5FE9FF00FE291E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69538C1FADB981A72EF96607 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		730E31E4319047FA6C9807AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelectTrainFlightPlace/Pods-SelectTrainFlightPlace-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		876BFF72EEFA4058B81D8F3C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SelectTrainFlightPlace/Pods-SelectTrainFlightPlace-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2318E2431F5FE9FE00FE291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318E2871F5FEBDA00FE291E /* PlaneAndTrainPlaceController.m in Sources */,
+				2318E2521F5FE9FE00FE291E /* ViewController.m in Sources */,
+				2318E2841F5FEBBF00FE291E /* PlaneAndTrainModel.m in Sources */,
+				2318E24F1F5FE9FE00FE291E /* AppDelegate.m in Sources */,
+				2318E24C1F5FE9FE00FE291E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318E25C1F5FE9FF00FE291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318E2651F5FE9FF00FE291E /* SelectTrainFlightPlaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2318E2671F5FE9FF00FE291E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2318E2701F5FE9FF00FE291E /* SelectTrainFlightPlaceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2318E2621F5FE9FF00FE291E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2318E2461F5FE9FE00FE291E /* SelectTrainFlightPlace */;
+			targetProxy = 2318E2611F5FE9FF00FE291E /* PBXContainerItemProxy */;
+		};
+		2318E26D1F5FE9FF00FE291E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2318E2461F5FE9FE00FE291E /* SelectTrainFlightPlace */;
+			targetProxy = 2318E26C1F5FE9FF00FE291E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2318E2531F5FE9FE00FE291E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2318E2541F5FE9FE00FE291E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2318E2581F5FE9FE00FE291E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2318E2591F5FE9FE00FE291E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2318E2721F5FE9FF00FE291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2318E2731F5FE9FF00FE291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2318E2751F5FE9FF00FE291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD66E66D4560DBC24028E52A /* Pods-SelectTrainFlightPlace.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Z646MJH9;
+				INFOPLIST_FILE = SelectTrainFlightPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raising.SelectTrainFlightPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2318E2761F5FE9FF00FE291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47EA2291314699BE1E63912C /* Pods-SelectTrainFlightPlace.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 24Z646MJH9;
+				INFOPLIST_FILE = SelectTrainFlightPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raising.SelectTrainFlightPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2318E2781F5FE9FF00FE291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24Z646MJH9;
+				INFOPLIST_FILE = SelectTrainFlightPlaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raising.SelectTrainFlightPlaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectTrainFlightPlace.app/SelectTrainFlightPlace";
+			};
+			name = Debug;
+		};
+		2318E2791F5FE9FF00FE291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 24Z646MJH9;
+				INFOPLIST_FILE = SelectTrainFlightPlaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raising.SelectTrainFlightPlaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelectTrainFlightPlace.app/SelectTrainFlightPlace";
+			};
+			name = Release;
+		};
+		2318E27B1F5FE9FF00FE291E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 24Z646MJH9;
+				INFOPLIST_FILE = SelectTrainFlightPlaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raising.SelectTrainFlightPlaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectTrainFlightPlace;
+			};
+			name = Debug;
+		};
+		2318E27C1F5FE9FF00FE291E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 24Z646MJH9;
+				INFOPLIST_FILE = SelectTrainFlightPlaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.raising.SelectTrainFlightPlaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SelectTrainFlightPlace;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2318E2421F5FE9FE00FE291E /* Build configuration list for PBXProject "SelectTrainFlightPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318E2721F5FE9FF00FE291E /* Debug */,
+				2318E2731F5FE9FF00FE291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318E2741F5FE9FF00FE291E /* Build configuration list for PBXNativeTarget "SelectTrainFlightPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318E2751F5FE9FF00FE291E /* Debug */,
+				2318E2761F5FE9FF00FE291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318E2771F5FE9FF00FE291E /* Build configuration list for PBXNativeTarget "SelectTrainFlightPlaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318E2781F5FE9FF00FE291E /* Debug */,
+				2318E2791F5FE9FF00FE291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2318E27A1F5FE9FF00FE291E /* Build configuration list for PBXNativeTarget "SelectTrainFlightPlaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318E27B1F5FE9FF00FE291E /* Debug */,
+				2318E27C1F5FE9FF00FE291E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2318E23F1F5FE9FE00FE291E /* Project object */;
+}
